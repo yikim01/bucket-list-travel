@@ -3,16 +3,17 @@
     <a href="#!" class="brand-logo">Travel Bucket List</a>
     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Places</a></li>
-      <li><a href="#">Login</a></li>
+      <li><%= link_to "Home",   root_path  %></li>
+      <li><%= link_to "About",  about_path %></li>
+      <li><%= link_to "Places", places_path %></li>
+      <li><%= link_to "Sign Up", signup_path %></li>
     </ul>
     <ul class="side-nav" id="mobile-demo">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Places</a></li>
       <li><a href="#">Login</a></li>
+      <li><a href="#"></a></li>
     </ul>
   </div>
 </nav>
