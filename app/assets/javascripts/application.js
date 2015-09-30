@@ -15,7 +15,5 @@
 //= require turbolinks
 //= require_tree .
 //= require jquery
-//= require materialize-sprockets
+//= require bootstrap-sprockets
 
-
-$(".button-collapse").sideNav();
