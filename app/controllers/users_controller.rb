@@ -11,6 +11,7 @@ end
 def create
   @user = User.new(user_params)
   if @user.save
+    log_in @user
     flash[:success] = "Welcome to the Travel List"
     redirect_to @user
   else
@@ -21,7 +22,7 @@ end
 
 private
   def user_params
-    params.require(:user).permit(:firstname, :lastname, :username, :email, :password)
+    params.require(:user).permit(:firstname, :lastname, :username, :email, :password, :password_confirmation)
   end
 
 end
