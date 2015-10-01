@@ -19,7 +19,10 @@
 /* universal */
 
 body {
-  padding-top: 60px;
+
+}
+body.homepage{
+  background-image: url("http://i.kinja-img.com/gawker-media/image/upload/tndkklvnxeoprzcusexl.jpg");
 }
 
 section {
@@ -89,8 +92,23 @@ aside {
   }
 }
 
+/* Home Page */
+
+.background {
+  background-image: url("http://i.kinja-img.com/gawker-media/image/upload/tndkklvnxeoprzcusexl.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 927px;
+}
 
 
+/* navbar */
+
+.navbar {
+  margin: 0;
+}
 
 
 
