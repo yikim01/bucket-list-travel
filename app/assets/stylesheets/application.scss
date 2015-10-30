@@ -38,14 +38,16 @@ textarea {
 
 aside {
   section.user_info {
-    margin-top: 20px;
+    margin-top: 0;
   }
   section {
     padding: 10px 0;
     margin-top: 20px;
     &:first-child {
       border: 0;
-      padding-top: 0;
+      padding-top: 100px;
+      padding-left: 100px;
+      float: center;
     }
     span {
       display: block;
@@ -63,7 +65,7 @@ aside {
 }
 
 .gravitar {
-  float: left;
+  float: center;
   margin-right: 10px;
 }
 
