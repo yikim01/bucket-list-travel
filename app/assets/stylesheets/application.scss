@@ -119,8 +119,27 @@ font-family: 'Poiret One', cursive;
   margin: 0;
 }
 
+/* About Page */
+.about-header {
+  text-align: center;
+  margin-top: 200px;
+}
 
+/* places */
+.places-title {
+  text-align: center;
+  margin-top: 100px;
+}
 
+.picture-grid {
+  .row {
+    .places {
+      .img-responsive{
+
+      }
+    }
+  }
+}
 
 
 
